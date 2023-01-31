@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    example = {
-      version = "0.1.0"
-      source  = "registry.example.org/namespace/name"
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.4.0"
     }
   }
 }
